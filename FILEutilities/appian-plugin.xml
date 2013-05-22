@@ -1,0 +1,16 @@
+<appian-plugin name="FILEutilities" key="fileutilities">
+
+  <plugin-info>
+    <description>FILEutilities</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+  
+  <smart-service name="Delete Local Directory" key="DeleteLocalDirectory"
+    class="archant.appian.com.deleteDIR" />
+
+  <smart-service name="Move File on Disk" key="MoveFileonDisk"
+    class="archant.appian.com.MoveFile" />
+
+</appian-plugin>
