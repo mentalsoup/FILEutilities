@@ -13,4 +13,10 @@
   <smart-service name="Move File on Disk" key="MoveFileonDisk"
     class="archant.appian.com.MoveFile" />
 
+
+  <smart-service name="createDIR" key="createDIR"
+    class="archant.appian.com.createDIR" />
+
+  <smart-service name="createDIR" key="createDIR"
+    class="archant.appian.com.createDIR" />
 </appian-plugin>
